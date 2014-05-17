@@ -1,0 +1,24 @@
+{
+    "name": "th3n3rd/project-name",
+    "type": "project",
+    "description": "projet description",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Garofalo",
+            "email": "marcogarofalo.personal@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "h4cc/phpqatools": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProjectName": "src/"
+        }
+    }
+}
