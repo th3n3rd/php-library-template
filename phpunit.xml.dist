@@ -10,13 +10,13 @@
          bootstrap="tests/bootstrap.php">
     <testsuites>
         <testsuite name="ProjectName">
-            <directory>./tests/</directory>
+            <directory>./tests</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory>./</directory>
+            <directory>./src</directory>
         </whitelist>
     </filter>
 </phpunit>
